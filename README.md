@@ -19,14 +19,36 @@ Replicated Grafana Node Exporter dashboard using React + PrimeReact.
 - Grafana-style sidebar
 
 ## Project Structure
-src/
-├── components/
-│   ├── Header.jsx
-│   ├── Sidebar.jsx
-│   ├── Panel.jsx
-│   ├── GaugeCard.jsx
-│   ├── TopStats.jsx
-│   └── AllCharts.jsx
+
+```text
+primereact-dashboard/
 │
-├── pages/
-│   └── Dashboard.jsx
+├── src/
+│   ├── assets/
+│
+│   ├── components/
+│   │   ├── AllCharts.jsx
+│   │   ├── CpuMemorySection.jsx
+│   │   ├── CpuSection.jsx
+│   │   ├── FilterBar.jsx
+│   │   ├── GaugeCard.jsx
+│   │   ├── Header.jsx
+│   │   ├── NetworkDiskSection.jsx
+│   │   ├── NetworkSection.jsx
+│   │   ├── Panel.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── StatsCards.jsx
+│   │   └── TopStats.jsx
+│
+│   ├── pages/
+│   │   └── Dashboard.jsx
+│
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── public/
+├── package.json
+└── index.html
+```
